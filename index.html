@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ice Cream Maker</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1>Ice Cream Maker</h1>
+    <div class="upper-container">
+        <div data-drop-target="true" draggable="true" class="flavours">
+            <div class="vanilla col">
+                <h2>Vanilla</h2>
+                <div style="background-color: snow; " class="ind-flavours van" id="1" draggable="true"></div>
+            </div>
+            <div class="vanilla col">
+                <h2>Chocolate</h2>
+                <div style="background-color: rgb(125, 100, 100);" class="ind-flavours cho" id="2" draggable="true"></div>
+            </div>
+            <div class="vanilla col">
+                <h2>ButterScotch</h2>
+                <div style="background-color: rgb(255, 255, 122);" class="ind-flavours butter" id="3" draggable="true"></div>
+            </div>
+            <div class="vanilla col">
+                <h2>Pista</h2>
+                <div style="background-color: rgb(131, 203, 131);" class="ind-flavours pista" id="4" draggable="true"></div>
+            </div>
+            <div class="vanilla col">
+                <h2>Oreo</h2>
+                <div style="background-color: rgb(115, 115, 219);" class="ind-flavours oreo" id="5" draggable="true"></div>
+            </div>
+            <div class="vanilla col">
+                <h2>Remove</h2>
+                <div class="remove" data-drop-target="true" id="remove"></div>
+            </div>
+        </div>
+    </div>
+    <div class="icecream">
+        <div data-drop-target="true" layers="true" draggable="true" id="s1" class="scoop-2"></div>
+        <div data-drop-target="true" layers="true" draggable="true" id="s2" class="scoop-1" style="background-color: white !important;"></div>
+        <div data-drop-target="true" layers="true" draggable="true" id="s3" class="scoop"></div>
+        <img class="cone" src="./assets/cone.jpg">
+    </div>
+    <script data-drop-target="true" src="./script.js"></script>
+</body>
